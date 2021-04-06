@@ -1,0 +1,40 @@
+:root {
+    --title_color: white;
+    --article_color: white;
+  }
+  body {
+    font-family: 'Muli', sans-serif;
+  }
+  #main {
+    padding: 20px;
+    background-color: #F1F1F1;
+  }
+  #title {
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: var(--title_color, #c6faf1);
+  }
+  #img-div {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  #img-caption {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #article-content {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--article_color, #c6faf1);
+  }
+  
